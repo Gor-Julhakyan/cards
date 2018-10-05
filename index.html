@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="cardsApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cards</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/animate.css">
+  <link rel="stylesheet" href="./styles/main.css">
+<script src="https://unpkg.com/current-device/umd/current-device.min.js"></script>
+</head>
+<body >
+  <div ng-controller="CardsListController as cardsList">
+
+    <!-- CARD LIST -->
+    <div class="card-list">
+      <div class="card " ng-repeat="card in cardsList.data">
+        <div class="card-img" style="background-image: url('{{cardsList.imgBase + card.img}}')"></div>
+        <div class="card-desc">
+          {{card.desc | limitTo: cardsList.descTextLimit }} ...
+        </div>
+        <div class="card-title-sec">
+          <div class="title">{{card.title}}</div>
+          <div class="reiting">
+            <span class="raiting-val">
+              <i class="{{cardsList.raitingsProps[card.raiting.value - 1].icon}}" ng-style="{color: cardsList.raitingsProps[card.raiting.value - 1].color}"></i>
+              {{card.raiting.value | number:1}}
+            </span>
+            <span>({{card.raiting.votes}})</span>
+          </div>
+        </div>
+        <div class="card-price-sec">
+          <button class="fav-btn" ng-click="cardsList.addToFavorites($index)"><i class="fas fa-heart"></i></button>
+          <div class="price">от {{card.price }}&#8381;</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDER -->
+    <div class="slider" >
+      <button class="slide-btn slide-btn-left" ng-click="cardsList.slideLeft()">
+        <i class="fas fa-angle-left"></i>
+      </button>
+      <button class="slide-btn slide-btn-right" ng-click="cardsList.slideRight()">
+        <i class="fas fa-angle-right"></i>
+      </button>
+
+      <div class="slider-body">
+        <div class="card" ng-repeat="card in cardsList.data track by $index" ng-if="$index >= cardsList.sliderMin && $index < cardsList.sliderMax">
+          <div class="card-img" style="background-image: url('{{cardsList.imgBase + card.img}}')"></div>
+          <div class="card-desc">
+            {{card.desc | limitTo: cardsList.descTextLimit }} ...
+          </div>
+          <div class="card-title-sec">
+            <div class="title">{{card.title}}</div>
+            <div class="reiting">
+              <span class="raiting-val">
+                <i class="{{cardsList.raitingsProps[card.raiting.value - 1].icon}}" ng-style="{color: cardsList.raitingsProps[card.raiting.value - 1].color}"></i>
+                {{card.raiting.value | number:1}}
+              </span>
+              <span>({{card.raiting.votes}})</span>
+            </div>
+          </div>
+          <div class="card-price-sec">
+            <button class="fav-btn" ng-click="cardsList.addToFavorites($index)"><i class="fas fa-heart"></i></button>
+            <div class="price">от {{card.price }}&#8381;</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+  </div>
+  
+
+  <!-- JS scripts -->
+  <script src="./scripts/navigator-detect.min.js"></script>
+  <script src="./scripts/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular-animate.js"></script>
+  <script src="./scripts/cards.js"></script>
+  <!-- End JS scripts -->
+</body>
+</html>

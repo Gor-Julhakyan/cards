@@ -1,0 +1,222 @@
+[
+{
+  "id": 0,
+  "title": "userName1",
+  "img": "card-1.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 5,
+    "votes": 238
+  },
+  "price": 500
+},
+{
+  "id": 1,
+  "title": "userName2",
+  "img": "card-2.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 4,
+    "votes": 409
+  },
+  "price": 500
+},
+{
+  "id": 2,
+  "title": "userName3",
+  "img": "card-3.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 3,
+    "votes": 222
+  },
+  "price": 500
+},
+{
+  "id": 3,
+  "title": "userName4",
+  "img": "card-4.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 2,
+    "votes": 495
+  },
+  "price": 500
+},
+{
+  "id": 4,
+  "title": "userName5",
+  "img": "card-5.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 1,
+    "votes": 277
+  },
+  "price": 500
+},
+{
+  "id": 5,
+  "title": "userName6",
+  "img": "card-1.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 3,
+    "votes": 496
+  },
+  "price": 500
+},
+{
+  "id": 6,
+  "title": "userName7",
+  "img": "card-1.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 5,
+    "votes": 244
+  },
+  "price": 500
+},
+{
+  "id": 7,
+  "title": "userName8",
+  "img": "card-2.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 5,
+    "votes": 172
+  },
+  "price": 500
+},
+{
+  "id": 8,
+  "title": "userName9",
+  "img": "card-3.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 4,
+    "votes": 484
+  },
+  "price": 500
+},
+{
+  "id": 9,
+  "title": "userName10",
+  "img": "card-4.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 5,
+    "votes": 312
+  },
+  "price": 500
+},
+{
+  "id": 10,
+  "title": "userName11",
+  "img": "card-1.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 4,
+    "votes": 343
+  },
+  "price": 500
+},
+{
+  "id": 11,
+  "title": "userName12",
+  "img": "card-1.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 3,
+    "votes": 373
+  },
+  "price": 500
+},
+{
+  "id": 12,
+  "title": "userName13",
+  "img": "card-2.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 4,
+    "votes": 368
+  },
+  "price": 500
+},
+{
+  "id": 13,
+  "title": "userName14",
+  "img": "card-3.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 3,
+    "votes": 191
+  },
+  "price": 500
+},
+{
+  "id": 14,
+  "title": "userName15",
+  "img": "card-4.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 2,
+    "votes": 155
+  },
+  "price": 500
+},
+{
+  "id": 15,
+  "title": "userName16",
+  "img": "card-1.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 5,
+    "votes": 157
+  },
+  "price": 500
+},
+{
+  "id": 16,
+  "title": "userName17",
+  "img": "card-1.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 2,
+    "votes": 165
+  },
+  "price": 500
+},
+{
+  "id": 17,
+  "title": "userName18",
+  "img": "card-2.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 3,
+    "votes": 349
+  },
+  "price": 500
+},
+{
+  "id": 18,
+  "title": "userName19",
+  "img": "card-3.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 5,
+    "votes": 122
+  },
+  "price": 500
+},
+{
+  "id": 19,
+  "title": "userName20",
+  "img": "card-4.jpg",
+  "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, sapiente veritatis in laboriosam accusantium et voluptatem provident vitae hic, consequatur dolorem perferendis iste, non quam totam porro eveniet itaque animi!",
+  "raiting": {
+    "value": 1,
+    "votes": 392
+  },
+  "price": 500
+}
+]
